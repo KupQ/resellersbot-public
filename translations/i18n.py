@@ -40,7 +40,7 @@ TRANSLATIONS = {
         "ar": f'{E_BOT} <b>!مرحباً</b>\n\n{E_MONEY} الرصيد: <b>${{balance}}</b>',
     },
     "btn_get_udid": {
-        "en": "REGISTER",
+        "en": "Register",
         "ru": "Регистрация",
         "ar": "تسجيل",
     },
@@ -50,12 +50,12 @@ TRANSLATIONS = {
         "ar": "UDID",
     },
     "btn_use_key": {
-        "en": "KEY",
+        "en": "Key",
         "ru": "Ключ",
         "ar": "مفتاح",
     },
     "btn_settings": {
-        "en": "SETTINGS",
+        "en": "Settings",
         "ru": "Настройки",
         "ar": "الإعدادات",
     },
@@ -94,8 +94,8 @@ TRANSLATIONS = {
         "ar": f'{E_WAIT} <b>جارٍ التسجيل...</b>',
     },
     "btn_get_cert": {
-        "en": "GET CERTIFICATE",
-        "ru": "ПОЛУЧИТЬ СЕРТИФИКАТ",
+        "en": "Get Certificate",
+        "ru": "Получить Сертификат",
         "ar": "الحصول على الشهادة",
     },
     "register_success": {
@@ -200,30 +200,30 @@ TRANSLATIONS = {
         "ar": f'{E_GEAR} <b>الإعدادات</b>\n\nإدارة تفضيلاتك:',
     },
     "btn_set_api_key": {
-        "en": "SET API KEY",
-        "ru": "Задать API ключ",
+        "en": "Set Api Key",
+        "ru": "Задать Api Ключ",
         "ar": "تعيين مفتاح API",
     },
     "btn_create_key": {
-        "en": "CREATE KEY",
-        "ru": "Создать ключ",
+        "en": "Create Key",
+        "ru": "Создать Ключ",
         "ar": "إنشاء مفتاح",
     },
     "btn_language": {
-        "en": "LANGUAGE",
+        "en": "Language",
         "ru": "Язык",
         "ar": "اللغة",
     },
     "btn_back": {
-        "en": "BACK",
+        "en": "Back",
         "ru": "Назад",
         "ar": "رجوع",
     },
 
     # ─── Check Key ────────────────────────────────────────────────────────
     "btn_check_key": {
-        "en": "CHECK KEY",
-        "ru": "ПРОВЕРИТЬ КЛЮЧ",
+        "en": "Check Key",
+        "ru": "Проверить Ключ",
         "ar": "فحص المفتاح",
     },
     "check_key_prompt": {
@@ -491,8 +491,8 @@ TRANSLATIONS = {
         "ar": f'━ {E_LANG} تغيير لغة البوت',
     },
     "btn_set_thumbnail": {
-        "en": "SET THUMBNAIL",
-        "ru": "МИНИАТЮРА",
+        "en": "Set Thumbnail",
+        "ru": "Миниатюра",
         "ar": "الصورة المصغرة",
     },
 
