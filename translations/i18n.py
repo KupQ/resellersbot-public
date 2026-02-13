@@ -395,7 +395,7 @@ TRANSLATIONS = {
     # ─── Certificate Display ──────────────────────────────────────────────
     "cert_status_signed": {
         "en": f'{_e("5776375003280838798", "📊")} <b>Status:</b> {E_SIGNED} Signed',
-        "ru": f'{_e("5776375003280838798", "📊")} <b>Статус:</b> {E_SIGNED} Подписан',
+        "ru": f'{_e("5776375003280838798", "📊")} <b>Статус:</b> {E_SIGNED} Активный',
         "ar": f'{_e("5776375003280838798", "📊")} <b>:الحالة</b> {E_SIGNED} موقّع',
         "id": f'{_e("5776375003280838798", "📊")} <b>Status:</b> {E_SIGNED} Signed',
     },
@@ -429,9 +429,15 @@ TRANSLATIONS = {
         "ar": f'{_e("5316575093269214796", "⏰")} <b>:الضمان</b> {{remaining}}',
         "id": f'{_e("5316575093269214796", "⏰")} <b>Garansi:</b> {{remaining}}',
     },
+    "cert_registered_at": {
+        "en": f'{_e("5967412305338568701", "📅")} <b>Registered:</b> {{date}}',
+        "ru": f'{_e("5967412305338568701", "📅")} <b>Зарегистрирован:</b> {{date}}',
+        "ar": f'{_e("5967412305338568701", "📅")} <b>:تاريخ التسجيل</b> {{date}}',
+        "id": f'{_e("5967412305338568701", "📅")} <b>Terdaftar:</b> {{date}}',
+    },
     "cert_expired": {
         "en": "Expired",
-        "ru": "Истёк",
+        "ru": "Истекла",
         "ar": "منتهي",
         "id": "Kedaluwarsa",
     },
@@ -570,6 +576,48 @@ TRANSLATIONS = {
         "ru": f'━ {_e("5931629923478278721", "🖼")} Установить миниатюру',
         "ar": f'━ {_e("5931629923478278721", "🖼")} تعيين الصورة المصغرة',
         "id": f'━ {_e("5931629923478278721", "🖼")} Set Thumbnail',
+    },
+    "settings_desc_instruction": {
+        "en": f'━ {_e("5906995262378741881", "📋")} Set Instructions link',
+        "ru": f'━ {_e("5906995262378741881", "📋")} Ссылка на инструкцию',
+        "ar": f'━ {_e("5906995262378741881", "📋")} رابط التعليمات',
+        "id": f'━ {_e("5906995262378741881", "📋")} Link Instruksi',
+    },
+    "btn_set_instruction": {
+        "en": "Instructions",
+        "ru": "Инструкция",
+        "ar": "التعليمات",
+        "id": "Instruksi",
+    },
+    "btn_instructions": {
+        "en": "Instructions",
+        "ru": "Инструкция",
+        "ar": "التعليمات",
+        "id": "Instruksi",
+    },
+    "set_instruction_title": {
+        "en": f'{_e("5906995262378741881", "📋")} <b>Set Instructions URL</b>',
+        "ru": f'{_e("5906995262378741881", "📋")} <b>Ссылка на инструкцию</b>',
+        "ar": f'{_e("5906995262378741881", "📋")} <b>رابط التعليمات</b>',
+        "id": f'{_e("5906995262378741881", "📋")} <b>Link Instruksi</b>',
+    },
+    "set_instruction_prompt": {
+        "en": "Send a valid URL (e.g. https://t.me/yourchannel)",
+        "ru": "Отправьте ссылку (напр. https://t.me/yourchannel)",
+        "ar": "(https://t.me/yourchannel :أرسل رابطًا صالحًا (مثال",
+        "id": "Kirim URL yang valid (misal https://t.me/yourchannel)",
+    },
+    "set_instruction_saved": {
+        "en": f'{E_CHECK} Instructions URL saved!',
+        "ru": f'{E_CHECK} Ссылка на инструкцию сохранена!',
+        "ar": f'{E_CHECK} !تم حفظ رابط التعليمات',
+        "id": f'{E_CHECK} Link instruksi tersimpan!',
+    },
+    "set_instruction_invalid": {
+        "en": f'{E_ERROR} Invalid URL. Must start with http:// or https://',
+        "ru": f'{E_ERROR} Неверная ссылка. Должна начинаться с http:// или https://',
+        "ar": f'{E_ERROR} https:// أو http:// رابط غير صالح. يجب أن يبدأ بـ',
+        "id": f'{E_ERROR} URL tidak valid. Harus dimulai dengan http:// atau https://',
     },
     "settings_desc_language": {
         "en": f'━ {E_LANG} Change bot language',
