@@ -652,6 +652,38 @@ TRANSLATIONS = {
         "ar": "!تمت إعادة التسجيل بالفعل",
         "id": "Udah daftar ulang!",
     },
+
+    # ─── List UDIDs ──────────────────────────────────────────────────────
+    "list_loading": {
+        "en": f'{E_WAIT} <b>Fetching certificates…</b>',
+        "ru": f'{E_WAIT} <b>Загрузка сертификатов…</b>',
+        "ar": f'{E_WAIT} <b>…جارٍ تحميل الشهادات</b>',
+        "id": f'{E_WAIT} <b>Memuat certificate…</b>',
+    },
+    "list_checking": {
+        "en": f'{E_WAIT} <b>Checking {"{count}"} UDIDs…</b>',
+        "ru": f'{E_WAIT} <b>Проверка {"{count}"} UDID…</b>',
+        "ar": f'{E_WAIT} <b>…{"{count}"} UDID جارٍ فحص</b>',
+        "id": f'{E_WAIT} <b>Cek {"{count}"} UDID…</b>',
+    },
+    "list_done": {
+        "en": f'{E_CHECK} <b>UDID Export</b>\n\n{E_DEVICE} Total: <b>{"{total}"}</b>\n{E_SIGNED} Signed: <b>{"{signed}"}</b>\n{E_REVOKED} Revoked: <b>{"{revoked}"}</b>',
+        "ru": f'{E_CHECK} <b>Экспорт UDID</b>\n\n{E_DEVICE} Всего: <b>{"{total}"}</b>\n{E_SIGNED} Подписано: <b>{"{signed}"}</b>\n{E_REVOKED} Отозвано: <b>{"{revoked}"}</b>',
+        "ar": f'{E_CHECK} <b>تصدير UDID</b>\n\n{E_DEVICE} المجموع: <b>{"{total}"}</b>\n{E_SIGNED} موقّع: <b>{"{signed}"}</b>\n{E_REVOKED} ملغى: <b>{"{revoked}"}</b>',
+        "id": f'{E_CHECK} <b>Ekspor UDID</b>\n\n{E_DEVICE} Total: <b>{"{total}"}</b>\n{E_SIGNED} Signed: <b>{"{signed}"}</b>\n{E_REVOKED} Revoked: <b>{"{revoked}"}</b>',
+    },
+    "list_empty": {
+        "en": f'{E_ERROR} No registered UDIDs found.',
+        "ru": f'{E_ERROR} Зарегистрированные UDID не найдены.',
+        "ar": f'{E_ERROR} لا توجد أجهزة UDID مسجّلة.',
+        "id": f'{E_ERROR} Gak ada UDID terdaftar.',
+    },
+    "list_error": {
+        "en": f'{E_ERROR} Failed to fetch certificates. Try again later.',
+        "ru": f'{E_ERROR} Не удалось загрузить сертификаты. Попробуйте позже.',
+        "ar": f'{E_ERROR} فشل تحميل الشهادات. حاول لاحقاً.',
+        "id": f'{E_ERROR} Gagal muat certificate. Coba lagi nanti.',
+    },
 }
 
 # In-memory user language preferences  {user_id: "en"|"ru"|"ar"}
