@@ -161,6 +161,18 @@ TRANSLATIONS = {
         "ar": f'{E_ERROR} لم يتم العثور على شهادات لهذا UDID.',
         "id": f'{E_ERROR} Gak ada certificate buat UDID ini.',
     },
+    "udid_device_info": {
+        "en": f'{E_DEVICE} <code>{{udid}}</code>\n{E_PACK} <b>Device:</b> {{device}}',
+        "ru": f'{E_DEVICE} <code>{{udid}}</code>\n{E_PACK} <b>Устройство:</b> {{device}}',
+        "ar": f'{E_DEVICE} <code>{{udid}}</code>\n{E_PACK} <b>:الجهاز</b> {{device}}',
+        "id": f'{E_DEVICE} <code>{{udid}}</code>\n{E_PACK} <b>Device:</b> {{device}}',
+    },
+    "udid_unknown_device": {
+        "en": f'{E_DEVICE} <code>{{udid}}</code>\n{E_ERROR} Unknown device',
+        "ru": f'{E_DEVICE} <code>{{udid}}</code>\n{E_ERROR} Неизвестное устройство',
+        "ar": f'{E_DEVICE} <code>{{udid}}</code>\n{E_ERROR} جهاز غير معروف',
+        "id": f'{E_DEVICE} <code>{{udid}}</code>\n{E_ERROR} Device gak dikenal',
+    },
     "cert_not_found": {
         "en": f'{E_ERROR} Certificate data not available.',
         "ru": f'{E_ERROR} Данные сертификата недоступны.',
@@ -422,6 +434,12 @@ TRANSLATIONS = {
         "ru": f'{E_DEVICE} <b>UDID:</b> <code>{{udid}}</code>',
         "ar": f'{E_DEVICE} <b>:UDID</b> <code>{{udid}}</code>',
         "id": f'{E_DEVICE} <b>UDID:</b> <code>{{udid}}</code>',
+    },
+    "cert_device_label": {
+        "en": f'{E_PACK} <b>Device:</b> {{device}}',
+        "ru": f'{E_PACK} <b>Устройство:</b> {{device}}',
+        "ar": f'{E_PACK} <b>:الجهاز</b> {{device}}',
+        "id": f'{E_PACK} <b>Device:</b> {{device}}',
     },
     "cert_name_label": {
         "en": f'{_e("5316992572680320646", "👤")} <b>Name:</b> {{name}}',
