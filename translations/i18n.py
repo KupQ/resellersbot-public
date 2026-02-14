@@ -173,6 +173,12 @@ TRANSLATIONS = {
         "ar": f'<b>التطبيقات التالية تم توقيعها لـ</b> {E_DEVICE} <code>{{udid}}</code>',
         "id": f'<b>App berikut udah di-sign buat</b> {E_DEVICE} <code>{{udid}}</code>',
     },
+    "signing_apps": {
+        "en": f'{E_WAIT} <b>Creating app links...</b>',
+        "ru": f'{E_WAIT} <b>Создание ссылок...</b>',
+        "ar": f'{E_WAIT} <b>...جاري إنشاء روابط التطبيقات</b>',
+        "id": f'{E_WAIT} <b>Lagi bikin link app...</b>',
+    },
 
     # ─── Use Key ──────────────────────────────────────────────────────────
     "use_key_title": {
