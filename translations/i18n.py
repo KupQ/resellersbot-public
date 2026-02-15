@@ -24,6 +24,7 @@ E_PACK     = _e("5818920837645867167", "📦")
 E_LOCK     = _e("5886505193180239900", "🔐")
 E_LANG     = _e("5316832074047441823", "🌐")
 E_WAIT     = _e("5316561083085895267", "⏳")
+E_LOADING  = _e("5215484787325676090", "⏳")
 E_NUMS     = _e("5316858509571144216", "🔢")
 E_SHIELD   = _e("5877629862306385808", "🛡")
 
@@ -172,12 +173,6 @@ TRANSLATIONS = {
         "ru": f'{E_DEVICE} <code>{{udid}}</code>\n{E_ERROR} Неизвестное устройство',
         "ar": f'{E_DEVICE} <code>{{udid}}</code>\n{E_ERROR} جهاز غير معروف',
         "id": f'{E_DEVICE} <code>{{udid}}</code>\n{E_ERROR} Device gak dikenal',
-    },
-    "udid_invalid": {
-        "en": f'{E_ERROR} <code>{{udid}}</code>\n{E_ERROR} <b>Invalid UDID</b>',
-        "ru": f'{E_ERROR} <code>{{udid}}</code>\n{E_ERROR} <b>Недействительный UDID</b>',
-        "ar": f'{E_ERROR} <code>{{udid}}</code>\n{E_ERROR} <b>UDID غير صالح</b>',
-        "id": f'{E_ERROR} <code>{{udid}}</code>\n{E_ERROR} <b>UDID gak valid</b>',
     },
     "cert_not_found": {
         "en": f'{E_ERROR} Certificate data not available.',
@@ -739,10 +734,10 @@ TRANSLATIONS = {
         "id": f'{E_WAIT} <b>Memuat certificate…</b>',
     },
     "list_checking": {
-        "en": f'{E_WAIT} <b>Checking {"{count}"} UDIDs…</b>',
-        "ru": f'{E_WAIT} <b>Проверка {"{count}"} UDID…</b>',
-        "ar": f'{E_WAIT} <b>…{"{count}"} UDID جارٍ فحص</b>',
-        "id": f'{E_WAIT} <b>Cek {"{count}"} UDID…</b>',
+        "en": f'{E_LOADING} <b>Checking {"{count}"} UDIDs…</b>',
+        "ru": f'{E_LOADING} <b>Проверка {"{count}"} UDID…</b>',
+        "ar": f'{E_LOADING} <b>…{"{count}"} UDID جارٍ فحص</b>',
+        "id": f'{E_LOADING} <b>Cek {"{count}"} UDID…</b>',
     },
     "list_done": {
         "en": f'{E_CHECK} <b>UDID Export</b>\n\n{E_DEVICE} Total: <b>{"{total}"}</b>\n{E_SIGNED} Signed: <b>{"{signed}"}</b>\n{E_REVOKED} Revoked: <b>{"{revoked}"}</b>',
