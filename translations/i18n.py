@@ -173,6 +173,12 @@ TRANSLATIONS = {
         "ar": f'{E_DEVICE} <code>{{udid}}</code>\n{E_ERROR} جهاز غير معروف',
         "id": f'{E_DEVICE} <code>{{udid}}</code>\n{E_ERROR} Device gak dikenal',
     },
+    "udid_invalid": {
+        "en": f'{E_ERROR} <code>{{udid}}</code>\n{E_ERROR} <b>Invalid UDID</b>',
+        "ru": f'{E_ERROR} <code>{{udid}}</code>\n{E_ERROR} <b>Недействительный UDID</b>',
+        "ar": f'{E_ERROR} <code>{{udid}}</code>\n{E_ERROR} <b>UDID غير صالح</b>',
+        "id": f'{E_ERROR} <code>{{udid}}</code>\n{E_ERROR} <b>UDID gak valid</b>',
+    },
     "cert_not_found": {
         "en": f'{E_ERROR} Certificate data not available.',
         "ru": f'{E_ERROR} Данные сертификата недоступны.',
